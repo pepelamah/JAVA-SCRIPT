@@ -1,0 +1,20 @@
+<html>
+<pre>
+<script>
+
+let variableLet="globale";
+var variableVar="globale";
+if (true){
+    let variableLet="locale";
+    var variableVar="locale";
+    document.writeln("let : "+ variableLet);/* prend la vameur dans cette fonction if*/
+    document.writeln("var : "+ variableVar);/*prend la vameur dans cette fonction if */
+    
+}
+
+document.writeln("let : "+ variableLet);/*change de valeur et prend celle qui a été déclarée au début */
+document.writeln("var : "+ variableVar);/* garde la première valeur celle de la fonction*/
+
+</script>
+</pre>
+</html>
